@@ -15,7 +15,7 @@ To obtain and build CMake-C-Lib, make sure that your Linux system has C developm
 
 To get the code, clone the Git repository to a subdirectory, for example inside your own home directory:
 
-* `git clone https://github.com/pragmaticlinuxblog/cmake_c_lib.git~/mylib`
+* `git clone https://github.com/pragmaticlinuxblog/cmake_c_lib.git ~/mylib`
 
 ## Building the application
 
@@ -33,3 +33,7 @@ Note that this only has to be done once. From now on you can build the library b
 The *CMakeLists.txt* contains details on how to install the library as well. To install the library on your Linux system, run this command from the `build` subdirectory:
 
 * `sudo make install`
+
+And finally run `ldconfig` to register the library on the system:
+
+* `sudo ldconfig`
