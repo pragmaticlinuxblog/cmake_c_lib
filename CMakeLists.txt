@@ -16,8 +16,7 @@ add_library(${PROJECT_NAME} SHARED
 # Set the version property.
 set_target_properties(${PROJECT_NAME} PROPERTIES VERSION ${PROJECT_VERSION})
 
-# Set the shared object version property to the project's major version. This results
-# in a cancomm.so.1 symlink to cancomm.so.1.0.0 in the example case of version 1.0.0.
+# Set the shared object version property to the project's major version.
 set_target_properties(${PROJECT_NAME} PROPERTIES SOVERSION ${PROJECT_VERSION_MAJOR})
 
 # Set the public header property to the one with the actual API.
