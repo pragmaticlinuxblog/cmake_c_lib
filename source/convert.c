@@ -11,27 +11,27 @@
 
 
 /************************************************************************************//**
-** \brief     Converts a temperature in celcius to fahrenheit.
-** \param     celcius Temperature in celcius.
+** \brief     Converts a temperature in celsius to fahrenheit.
+** \param     celsius Temperature in celsius.
 ** \return    Temperature in fahrenheit.
 **
 ****************************************************************************************/
-float convert_celcius_to_fahrenheit(float celcius)
+float convert_celsius_to_fahrenheit(float celsius)
 {
-  return ((celcius * 9) / 5.0) + 32;
-} /*** end of convert_celcius_to_fahrenheit ***/
+  return ((celsius * 9) / 5.0) + 32;
+} /*** end of convert_celsius_to_fahrenheit ***/
 
 
 /************************************************************************************//**
-** \brief     Converts a temperature in fahrenheit to celcius.
+** \brief     Converts a temperature in fahrenheit to celsius.
 ** \param     fahrenheit Temperature in fahrenheit.
-** \return    Temperature in celcius.
+** \return    Temperature in celsius.
 **
 ****************************************************************************************/
-float convert_fahrenheit_to_celcius(float fahrenheit)
+float convert_fahrenheit_to_celsius(float fahrenheit)
 {
   return ((fahrenheit - 32) * 5) / 9.0;
-} /*** end of convert_fahrenheit_to_celcius ***/
+} /*** end of convert_fahrenheit_to_celsius ***/
 
 
 /************************************************************************************//**
